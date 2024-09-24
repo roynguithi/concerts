@@ -38,7 +38,7 @@ Base.metadata.create_all(engine)
 Session = sessionmaker(bind=engine)
 session = Session()
 
-# Insert sample data into the tables
+# sample data 
 
 # Add a band
 band1 = Band(name='The Beatles', hometown='Liverpool')
