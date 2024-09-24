@@ -1,8 +1,9 @@
+Concert Management System manages concerts, bands, and venues using a relational database with SQLAlchemy ORM. The system allows for adding bands, venues, and concerts and provides various querying methods for managing and analyzing concerts.
 Project Overview
 The Concert Management System models the relationship between Bands, Venues, and Concerts. It establishes a many-to-many relationship between Bands and Venues via Concerts. The system tracks:
-    Bands and their hometowns
-    Venues and their locations
-    Concerts, which associate bands and venues with performance dates
+    [a]Bands and their hometowns
+    [b]Venues and their locations
+    [c]Concerts, which associate bands and venues with performance dates
 Prerequisites
 Before you begin, ensure you have the following installed:
     [a]Python 3.x
@@ -10,11 +11,11 @@ Before you begin, ensure you have the following installed:
     [c]SQLAlchemy (pip install SQLAlchemy)
     [d]A terminal/command-line interface for running the program
 Installation
-Clone this repository to your local machine:
+[a]Clone this repository to your local machine:
 git clone https://github.com/yourusername/concert-management.git
-Navigate to the project directory:
+[b]Navigate to the project directory:
 cd concert-management
-Install the required dependencies:
+[c]Install the required dependencies:
 pip install -r requirements.txt
 Create the SQLite database:
     python3 models.py
